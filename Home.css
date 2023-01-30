@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    background-image: url(966.jpg);
+    background-repeat: repeat;
+
+    background-size: 40%;
+}
+
+
+
+
+.one {
+    float: left;
+    height: 70px;
+    width: 82px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+
+.two {
+    float: left;
+    height: 70px;
+    width: 82px;
+    margin-left: -57px;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+    opacity: 30%;
+
+
+}
+
+
+.three {
+    float: left;
+    height: 70px;
+    width: 82px;
+    margin-left: -133px;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+    opacity: 15%;
+
+
+
+}
+
+
+
+
+.navbar {
+    margin: 0;
+    overflow: hidden;
+    background-color: #009393;
+    height: 70px;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Reem Kufi', sans-serif;
+    /* padding-right: 150px; */
+}
+
+.navbar a {
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.subnav {
+    padding-top: 10px;
+    float: right;
+    overflow: hidden;
+}
+
+.subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.subnav:hover .subnavbtn,
+.subnav:hover .subfootbtn {
+    background-color: #0b222d;
+}
+
+.subnav-content {
+    float: right;
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #0b222d;
+    width: 100%;
+    z-index: 1;
+}
+
+.subnav-content a:hover {
+    background-color: white;
+    color: black;
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+
+
+.slider {
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    margin-top: 60px;
+
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.slides {
+    width: 500%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img {
+    width: 800px;
+    height: 400px;
+}
+
+/*css for manual slide navigation*/
+
+.navigation-manual {
+    position: absolute;
+    width: 800px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid #009393;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background: #0b222d;
+}
+
+#radio1:checked~.first {
+    margin-left: 0;
+}
+
+#radio2:checked~.first {
+    margin-left: -20%;
+}
+
+#radio3:checked~.first {
+    margin-left: -40%;
+}
+
+#radio4:checked~.first {
+    margin-left: -60%;
+}
+
+/*css for automatic navigation*/
+
+.navigation-auto {
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 370px;
+}
+
+.navigation-auto div {
+    border: 2px solid #0b222d;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked~.navigation-auto .auto-btn1 {
+    background: #0b222d;
+}
+
+#radio2:checked~.navigation-auto .auto-btn2 {
+    background: #0b222d;
+}
+
+#radio3:checked~.navigation-auto .auto-btn3 {
+    background: #0b222d;
+}
+
+#radio4:checked~.navigation-auto .auto-btn4 {
+    background: #0b222d;
+}
+
+.footer {
+    padding-right: 500px;
+    margin-right: auto;
+    margin-top: 157px;
+    overflow: hidden;
+    background-color: #009393;
+    height: 70px;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.subfootbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 50px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+
+}

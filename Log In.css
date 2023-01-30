@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    background-image: url(966.jpg);
+    background-repeat: repeat;
+    background-size: 40%;
+}
+
+
+
+
+.one {
+    float: left;
+    height: 70px;
+    width: 82px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+
+.two {
+    float: left;
+    height: 70px;
+    width: 82px;
+    margin-left: -57px;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+    opacity: 30%;
+
+
+}
+
+
+.three {
+    float: left;
+    height: 70px;
+    width: 82px;
+    margin-left: -133px;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+    opacity: 15%;
+
+
+
+}
+
+
+
+
+.navbar {
+    margin: 0;
+    overflow: hidden;
+    background-color: #009393;
+    height: 70px;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Reem Kufi', sans-serif;
+    /* padding-right: 150px; */
+}
+
+.navbar a {
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.subnav {
+    padding-top: 10px;
+    float: right;
+    overflow: hidden;
+}
+
+.subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.subnav:hover .subnavbtn,
+.subnav:hover .subfootbtn {
+    background-color: #0b222d;
+}
+
+.subnav-content {
+    float: right;
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #0b222d;
+    width: 100%;
+    z-index: 1;
+}
+
+.subnav-content a:hover {
+    background-color: white;
+    color: black;
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+
+form {
+    margin: auto;
+    width: 605px;
+}
+
+p {
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 50px;
+    color: #009393;
+    width: 260px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 40px;
+
+}
+
+span {
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 50px;
+    color: #009393;
+    margin-left: 400px;
+
+}
+
+a {
+    color: black;
+}
+
+.data input {
+    display: block;
+    width: 600px;
+    height: 70px;
+    border-radius: 10px;
+    border: 0px;
+    outline: 0px;
+    font-size: 40px;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Reem Kufi', sans-serif;
+    color: #009393;
+
+}
+
+::placeholder {
+    float: right;
+    padding-right: 10px;
+    color: #009393;
+    opacity: 40%;
+}
+
+.button {
+    background-color: #009393;
+    width: 400px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 32px;
+    margin-left: 100px;
+    margin-bottom: 26px;
+    margin-top: 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Reem Kufi', sans-serif;
+
+}
+
+
+.footer {
+    padding-right: 500px;
+    margin-right: auto;
+    margin-top: 28px;
+    overflow: hidden;
+    background-color: #009393;
+    height: 70px;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+
+.subfootbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 50px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+
+}

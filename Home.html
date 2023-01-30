@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="El Game3" />
+    <link rel="stylesheet" href="Home.css">
+    <link rel="icon" type="image/x-icon" href="project logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Reem+Kufi:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function () {
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if (counter > 3) {
+                counter = 1;
+            }
+        }, 3000);
+    </script>
+
+</head>
+<title>
+    الجامع
+</title>
+
+<body>
+
+    <header>
+
+        <div class="navbar">
+
+            <div class="subnav">
+
+                <button class="subnavbtn">القرأن الكريم <i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                    <a href="#company">تلاوة</a>
+                    <a href="#careers">قراءه</a>
+                </div>
+            </div>
+            <div class="subnav">
+                <button class="subnavbtn">الاحاديث الشريفة <i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                    <a href="Ta3ref.html">التعريف بالحديث</a>
+                    <a href="Aksam.html">اقسام الحديث</a>
+                    <a href="Mostl7at.html">مصطلحات علم الحديث</a>
+                </div>
+            </div>
+            <div class="subnav">
+                <button class="subnavbtn">التقويم الاسلامي <i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                    <a href="Nabza.html">نبذة عنه</a>
+                    <a href="Monasbat.html">المناسبات الاسلامية</a>
+                </div>
+            </div>
+            <div class="subnav">
+                <button class="subnavbtn">حسابك <i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                    <a href="Log In.html">تسجيل الدخول</a>
+                </div>
+            </div>
+
+            <img class="one" src="logo.png">
+            <img class="two" src="logo2.png">
+
+
+            <img class="three" src="logo2.png">
+
+        </div>
+
+    </header>
+
+    <div class="content">
+
+
+
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <div class="slide first">
+                    <img src="1.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="55.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="3.png" alt="">
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+
+                </div>
+            </div>
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+
+        <div class="subnav">
+
+            <button class="subfootbtn" onclick="document.location='Contact Us.html'">تواصل معنا<i
+                    class="fa fa-caret-down"></i></button>
+        </div>
+
+        <div class="subnav">
+            <button class="subfootbtn" onclick="document.location='https://en.wikipedia.org/wiki/FAQ'">FAQ<i
+                    class="fa fa-caret-down"></i></button>
+        </div>
+
+        <div class="subnav">
+            <button class="subfootbtn" onclick="document.location='Info.html'">معلومات عنا<i
+                    class="fa fa-caret-down"></i></button>
+        </div>
+
+        <div class="subnav">
+            <button class="subfootbtn" onclick="document.location='Message.html'">ارسل رسالة لنا<i
+                    class="fa fa-caret-down"></i></button>
+        </div>
+    </div>
+
+
+</body>
+
+
+</html>
